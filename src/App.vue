@@ -2,7 +2,7 @@
     <div id="app">
         <h1>Vue.js Project App</h1>
         <div>
-            <project-list v-bind:todos="projects"></project-list>
+            <project-list v-bind:projects="projects"></project-list>
             <create-project v-on:create-todo="createProject"></create-project>
         </div>
     </div>

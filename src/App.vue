@@ -1,11 +1,9 @@
 <template>
     <div id="app">
-        <h1 class="ui dividing centered header">Vue.js Todo App</h1>
-        <div class='ui three column centered grid'>
-            <div class='column'>
-                <project-list v-bind:todos="projects"></project-list>
-                <create-project v-on:create-todo="createProject"></create-project>
-            </div>
+        <h1>Vue.js Project App</h1>
+        <div>
+            <project-list v-bind:todos="projects"></project-list>
+            <create-project v-on:create-todo="createProject"></create-project>
         </div>
     </div>
 </template>

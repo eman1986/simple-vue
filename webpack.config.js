@@ -13,7 +13,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    bundle: './src/app.js'
+    bundle: './src/index.js'
   },
   output: {
     path: path.join(__dirname, 'public'),

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <project v-on:delete-project="deleteProject" v-for="project in projects" :project.sync="project"></project>
+        <project v-on:delete-project="deleteProject" v-for="project in projects" :key="project.ProjectName" :project.sync="project"></project>
     </div>
 </template>
 

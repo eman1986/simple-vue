@@ -5,7 +5,7 @@
             <input v-model="ProjectName" type="text">
         </div>
         <div>
-            <label>Project Typr</label>
+            <label>Project Type</label>
             <input v-model="ProjectType" type="text">
         </div>
         <div>

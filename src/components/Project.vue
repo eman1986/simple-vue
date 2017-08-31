@@ -1,12 +1,14 @@
 <template>
     <div>
-        {{ project.ProjectName }}
-    </div>
-    <div>
-        {{ project.ProjectType }}
-    </div>
-    <div>
-        <button v-on:click="deleteProject(project)">Delete</button>
+        <div>
+            {{ project.ProjectName }}
+        </div>
+        <div>
+            {{ project.ProjectType }}
+        </div>
+        <div>
+            <button v-on:click="deleteProject(project)">Delete</button>
+        </div>
     </div>
 </template>
 

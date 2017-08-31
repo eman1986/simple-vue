@@ -11,6 +11,9 @@
 </template>
 
 <script>
+    import ProjectList from './components/ProjectList';
+    import CreateProject from './components/createProject';
+
     export default {
         name: 'app',
         components: {
